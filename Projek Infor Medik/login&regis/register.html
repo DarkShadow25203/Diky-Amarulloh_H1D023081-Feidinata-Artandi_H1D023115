@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="register.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img alt="Mediline logo" height="40" src="../foto/logo-removebg-preview.png" width="40"/>
+            <span>TemanSehat</span>
+        </div>
+        <div class="navbar">
+            <a href="../index.php">Beranda</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="image-section">
+            <img alt="Illustration of a woman doctor with a stethoscope" height="400" src="gambar register.png" width="400"/>
+        </div>
+        <div class="form-section">
+            <h1>SELAMAT DATANG</h1>
+            <form action="register.php" method="POST">
+                <label for="username">User Name</label>
+                <input id="username" name="username" type="text" required />
+
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" required />
+
+                <label for="confirm-password">Konfirmasi Password</label>
+                <input id="confirm-password" name="confirm-password" type="password" required />
+
+                <button type="submit">Sign Up</button>
+                <a href="login.html" class="button">Log In</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
